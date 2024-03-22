@@ -1,0 +1,133 @@
+.hero {
+    background-image: url('images/indevalogo.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+@media (max-width: 767px) {
+    .hero-content {
+        display: none;
+    }
+}
+
+.alt-metin {
+    font-size: 14px;
+    color: #999;
+}
+
+.logo-img {
+    width: 30px; /* Genişlik */
+    height: 30px; /* Yükseklik */
+    margin-right: 5px; /* İkon ile resim arasındaki boşluk */
+}
+
+.about-section {
+    text-align: center;
+    margin-top: 50px; /* İstediğiniz boşluk değeri */
+}
+
+.img-slider {
+    width: 200px; /* İstediğiniz genişlik değeri */
+    height: 200px; /* İstediğiniz yükseklik değeri */
+    border-radius: 50%; /* Yuvarlak köşe ayarı */
+}
+
+.bg-divcolor {
+  background-color: #FFFAFA;
+}
+
+/* Sol Ok */
+.carousel-control-prev-icon {
+    background-color: #FF5733; /* Ok rengi */
+}
+
+/* Sağ Ok */
+.carousel-control-next-icon {
+    background-color: #FF5733; /* Ok rengi */
+}
+
+.card-img-top {
+    border-radius: 10px; /* Opsiyonel: Resim kenarlarını yuvarlatır */
+    width: 300px; /* Resim genişliği */
+    height: 200px; /* Resim yüksekliği */
+    object-fit: cover; /* Resmi card'ın boyutlarına göre uygun şekilde yerleştirir */
+}
+
+#submit-btn {
+    background-color: #001f3f; /* Mavi renk */
+    color: #fff; /* Beyaz renk */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit-btn:hover {
+    background-color: #2980b9; /* Hover durumunda renk değişimi */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icon {
+    font-size: 24px; /* İkon boyutu */
+    color: #333; /* İkon rengi */
+}
+
+.social-icon:hover {
+    color: #007bff; /* İkona hover durumunda renk değişimi */
+}
+
+.follow-text {
+	display: block;
+	color: white;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.fixed-top {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-custom {
+    background-color: #001f3f; /* Koyu Lacivert Rengi */
+    color: #fff; /* Yazı Rengi */
+}
+
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #001f3f;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+p {
+   font-family: 'Open Sans', sans-serif; /* Seçtiğiniz modern fontun adını buraya ekleyin */
+}
+
+h2 {
+   font-family: 'Open Sans', sans-serif; /* Seçtiğiniz modern fontun adını buraya ekleyin */
+}
